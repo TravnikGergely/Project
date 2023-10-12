@@ -1,0 +1,56 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="MenuImages\bg.png" />
+    <None Remove="MenuImages\continue.png" />
+    <None Remove="MenuImages\exit game.png" />
+    <None Remove="MenuImages\new game.png" />
+    <None Remove="MenuImages\options.png" />
+    <None Remove="MenuImages\Stats.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="MenuImages\bg.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pages\FFF_Menu.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FarFromFreedom.Logic\FarFromFreedom.Logic.csproj" />
+    <ProjectReference Include="..\FarFromFreedom.Renderer\FarFromFreedom.Renderer.csproj" />
+    <ProjectReference Include="..\FarFromFreedom.Repository\FarFromFreedom.Repository.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="StoryVideo\backgroundStory.mov">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="StoryVideo\Hurt_grunt_0.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="StoryVideo\Hurt_grunt_1.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="StoryVideo\Hurt_grunt_2.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="StoryVideo\Gobby_dies_new.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="StoryVideo\music.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

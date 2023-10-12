@@ -1,0 +1,18 @@
+﻿<Window x:Class="FarFromFreedom.SaveHighscore"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FarFromFreedom"
+        mc:Ignorable="d"
+        Title="SaveHighscore" Height="200" Width="200" ResizeMode="NoResize">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button Content="Save Highscore" HorizontalAlignment="Center" Margin="0,120,0,0" HorizontalContentAlignment="Center" VerticalAlignment="Top" Width="120" Click="Button_Click"/>
+        <TextBox x:Name="tbox" Margin="25,75,25,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <Label x:Name="label" Content="Player Name:" HorizontalAlignment="Center" Margin="0,26,0,0" HorizontalContentAlignment="Center" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>

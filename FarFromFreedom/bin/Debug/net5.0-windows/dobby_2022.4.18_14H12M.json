@@ -1,0 +1,77 @@
+{
+  "$type": "FarFromFreedom.Model.GameModel, FarFromFreedom.Model",
+  "Character": {
+    "$type": "FarFromFreedom.Model.Characters.MainCharacter, FarFromFreedom.Model",
+    "Name": "Dobby",
+    "Description": "alma",
+    "Health": 100.0,
+    "Power": 3.0,
+    "CurrentHealth": 100.0,
+    "Coin": 13,
+    "DirectionHelper": {
+      "$type": "FarFromFreedom.Model.DirectionAnimationHelper, FarFromFreedom.Model",
+      "Direction": 0,
+      "DirectionChanged": false
+    },
+    "Area": "50,50,300,350",
+    "Speed": "4,4"
+  },
+  "Enemies": {
+    "$type": "System.Collections.Generic.List`1[[FarFromFreedom.Model.Characters.Enemy, FarFromFreedom.Model]], System.Private.CoreLib",
+    "$values": [
+      {
+        "$type": "FarFromFreedom.Model.Characters.Enemies.HippoEnemy, FarFromFreedom.Model",
+        "Name": "HippoEnemy",
+        "Description": "FAT",
+        "Health": 2.0,
+        "Power": 2.0,
+        "CurrentHealth": 2.0,
+        "Area": "391,50,300,220",
+        "Speed": "1,1"
+      },
+      {
+        "$type": "FarFromFreedom.Model.Characters.Enemies.PigEnemy, FarFromFreedom.Model",
+        "Name": "PigEnemy",
+        "Description": "description",
+        "Health": 2.0,
+        "Power": 2.0,
+        "CurrentHealth": 2.0,
+        "Area": "50,209,300,220",
+        "Speed": "1,1"
+      },
+      {
+        "$type": "FarFromFreedom.Model.Characters.Enemies.CutSwordEnemy, FarFromFreedom.Model",
+        "Name": "CutSwordEnemy",
+        "Description": "description",
+        "Health": 2.0,
+        "Power": 2.0,
+        "CurrentHealth": 2.0,
+        "Area": "50,609,300,220",
+        "Speed": "1,1"
+      }
+    ]
+  },
+  "Items": {
+    "$type": "System.Collections.Generic.List`1[[FarFromFreedom.Model.IItem, FarFromFreedom.Model]], System.Private.CoreLib",
+    "$values": [
+      {
+        "$type": "FarFromFreedom.Model.Items.Coin, FarFromFreedom.Model",
+        "Name": "Coin",
+        "Description": "Coin",
+        "Value": 1,
+        "Area": "0,0,0,0"
+      },
+      {
+        "$type": "FarFromFreedom.Model.Items.Coin, FarFromFreedom.Model",
+        "Name": "Coin",
+        "Description": "Coin",
+        "Value": 1,
+        "Area": "400,400,300,220"
+      }
+    ]
+  },
+  "bullets": {
+    "$type": "System.Collections.Generic.List`1[[FarFromFreedom.Model.Bullet, FarFromFreedom.Model]], System.Private.CoreLib",
+    "$values": []
+  }
+}

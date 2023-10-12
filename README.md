@@ -1,1 +1,2 @@
 # Project
+We developed this game with 2 other colleagues. We copied the Binding of Isaac game as part of a termly assignment. One of my classmates was in charge of the graphics and the other and i were responsible for writing the code.

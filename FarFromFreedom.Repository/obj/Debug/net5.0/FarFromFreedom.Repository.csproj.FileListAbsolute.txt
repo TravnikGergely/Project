@@ -1,0 +1,15 @@
+C:\Users\Rebeka\Documents\GUI_20212202_HU3BPF\GUI_20212202_HU3BPF_AMKWH0_B74N6O\FarFromFreedom.Repository\bin\Debug\net5.0\FarFromFreedom.Repository.deps.json
+C:\Users\Rebeka\Documents\GUI_20212202_HU3BPF\GUI_20212202_HU3BPF_AMKWH0_B74N6O\FarFromFreedom.Repository\bin\Debug\net5.0\FarFromFreedom.Repository.dll
+C:\Users\Rebeka\Documents\GUI_20212202_HU3BPF\GUI_20212202_HU3BPF_AMKWH0_B74N6O\FarFromFreedom.Repository\bin\Debug\net5.0\FarFromFreedom.Repository.pdb
+C:\Users\Rebeka\Documents\GUI_20212202_HU3BPF\GUI_20212202_HU3BPF_AMKWH0_B74N6O\FarFromFreedom.Repository\bin\Debug\net5.0\FarFromFreedom.Model.dll
+C:\Users\Rebeka\Documents\GUI_20212202_HU3BPF\GUI_20212202_HU3BPF_AMKWH0_B74N6O\FarFromFreedom.Repository\bin\Debug\net5.0\FarFromFreedom.Model.pdb
+C:\Users\Rebeka\Documents\GUI_20212202_HU3BPF\GUI_20212202_HU3BPF_AMKWH0_B74N6O\FarFromFreedom.Repository\obj\Debug\net5.0\FarFromFreedom.Repository.csproj.AssemblyReference.cache
+C:\Users\Rebeka\Documents\GUI_20212202_HU3BPF\GUI_20212202_HU3BPF_AMKWH0_B74N6O\FarFromFreedom.Repository\obj\Debug\net5.0\FarFromFreedom.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rebeka\Documents\GUI_20212202_HU3BPF\GUI_20212202_HU3BPF_AMKWH0_B74N6O\FarFromFreedom.Repository\obj\Debug\net5.0\FarFromFreedom.Repository.AssemblyInfoInputs.cache
+C:\Users\Rebeka\Documents\GUI_20212202_HU3BPF\GUI_20212202_HU3BPF_AMKWH0_B74N6O\FarFromFreedom.Repository\obj\Debug\net5.0\FarFromFreedom.Repository.AssemblyInfo.cs
+C:\Users\Rebeka\Documents\GUI_20212202_HU3BPF\GUI_20212202_HU3BPF_AMKWH0_B74N6O\FarFromFreedom.Repository\obj\Debug\net5.0\FarFromFreedom.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Rebeka\Documents\GUI_20212202_HU3BPF\GUI_20212202_HU3BPF_AMKWH0_B74N6O\FarFromFreedom.Repository\obj\Debug\net5.0\FarFromFreedom.Repository.csproj.CopyComplete
+C:\Users\Rebeka\Documents\GUI_20212202_HU3BPF\GUI_20212202_HU3BPF_AMKWH0_B74N6O\FarFromFreedom.Repository\obj\Debug\net5.0\FarFromFreedom.Repository.dll
+C:\Users\Rebeka\Documents\GUI_20212202_HU3BPF\GUI_20212202_HU3BPF_AMKWH0_B74N6O\FarFromFreedom.Repository\obj\Debug\net5.0\refint\FarFromFreedom.Repository.dll
+C:\Users\Rebeka\Documents\GUI_20212202_HU3BPF\GUI_20212202_HU3BPF_AMKWH0_B74N6O\FarFromFreedom.Repository\obj\Debug\net5.0\FarFromFreedom.Repository.pdb
+C:\Users\Rebeka\Documents\GUI_20212202_HU3BPF\GUI_20212202_HU3BPF_AMKWH0_B74N6O\FarFromFreedom.Repository\obj\Debug\net5.0\ref\FarFromFreedom.Repository.dll

@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Level3>
+	<Room ID="1" Type="Netural">
+		<Neighbours>
+			<UpperNeighbour ID="5"/>
+			<LeftNeighbour  ID="3"/>
+			<LowerNeighbour/>
+			<RightNeighbour/>
+		</Neighbours>
+		<Enemies>
+			<Enemy Type="ZombieRunB" X="196" Y="540" Width="70" Height="90"/>
+		</Enemies>
+		<Objects>
+			<Object Type="stone2" X="998" Y="448" Width="70" Height="60"/>
+			<Object Type="board" X="553" Y="96" Width="50" Height="50"/>
+			<Object Type="stone" X="300" Y="176" Width="70" Height="80"/>
+			<Object Type="stone3" X="393" Y="492" Width="70" Height="60"/>
+		</Objects>
+	</Room>
+	<Room ID="2" Type="Item">
+		<Neighbours>
+			<UpperNeighbour ID="3"/>
+			<LeftNeighbour/>
+			<LowerNeighbour/>
+			<RightNeighbour/>
+		</Neighbours>
+		<Enemies>
+			<Enemy Type="ZombieWalkCripple" X="492" Y="202" Width="80" Height="80"/>
+		</Enemies>
+		<Objects>
+			<Object Type="stone3" X="393" Y="492" Width="70" Height="60"/>
+			<Object Type="stone3" X="450" Y="217" Width="50" Height="40"/>
+			<Object Type="skull" X="452" Y="529" Width="25" Height="28"/>
+			<Object Type="skull" X="201" Y="162" Width="25" Height="28"/>
+			<Object Type="stone2" X="1107" Y="184" Width="70" Height="60"/>
+			<Object Type="well" X="951" Y="424" Width="60" Height="80"/>
+		</Objects>
+	</Room>
+	<Room ID="3" Type="Neutral">
+		<Neighbours>
+			<UpperNeighbour ID="4"/>
+			<LeftNeighbour/>
+			<LowerNeighbour ID="2"/>
+			<RightNeighbour ID="1"/>
+		</Neighbours>
+		<Enemies>
+			<Enemy Type="Cat" X="961" Y="200" Width="60" Height="60"/>
+		</Enemies>
+		<Objects>
+			<Object Type="stone2" X="139" Y="240" Width="70" Height="60"/>
+			<Object Type="stone3" X="507" Y="137" Width="70" Height="60"/>
+			<Object Type="stone" X="416" Y="522" Width="70" Height="80"/>
+			<Object Type="board" X="707" Y="96" Width="50" Height="50"/>
+			<Object Type="skull" X="144" Y="280" Width="25" Height="28"/>
+			<Object Type="skull" X="1155" Y="221" Width="25" Height="28"/>
+			<Object Type="well" X="360" Y="360" Width="60" Height="80"/>
+		</Objects>
+	</Room>
+	<Room ID="4" Type="Enemy">
+		<Neighbours>
+			<UpperNeighbour/>
+			<LeftNeighbour/>
+			<LowerNeighbour ID="3"/>
+			<RightNeighbour ID="5"/>
+		</Neighbours>
+		<Enemies>
+			<Enemy Type="Cat" X="294" Y="157" Width="60" Height="60"/>
+			<Enemy Type="ZombieRunB" X="1064" Y="458" Width="70" Height="90"/>
+		</Enemies>
+		<Objects>
+			<Object Type="well" X="381" Y="426" Width="60" Height="80"/>
+			<Object Type="skull" X="944" Y="156" Width="25" Height="28"/>
+			<Object Type="skull" X="551" Y="568" Width="20" Height="25"/>
+			<Object Type="stone3" X="1000" Y="483" Width="70" Height="60"/>
+			<Object Type="stone2" X="139" Y="240" Width="70" Height="60"/>
+		</Objects>
+	</Room>
+	<Room ID="5" Type="Enemy">
+		<Neighbours>
+			<UpperNeighbour ID="6"/>
+			<LeftNeighbour ID="4"/>
+			<LowerNeighbour ID="1"/>
+			<RightNeighbour/>
+		</Neighbours>
+		<Enemies>
+			<Enemy Type="Cat" X="332" Y="493" Width="60" Height="60"/>
+			<Enemy Type="ZombieWalkCripple" X="882" Y="422" Width="80" Height="80"/>
+		</Enemies>
+		<Objects>
+			<Object Type="bigStone" X="327" Y="122" Width="60" Height="110"/>
+			<Object Type="stone" X="896" Y="247" Width="70" Height="80"/>
+			<Object Type="board" X="553" Y="96" Width="50" Height="50"/>
+			<Object Type="stone2" X="139" Y="240" Width="70" Height="60"/>
+			<Object Type="skull" X="1094" Y="560" Width="25" Height="28"/>
+			<Object Type="stone3" X="272" Y="536" Width="70" Height="60"/>			
+		</Objects>
+	</Room>
+	<Room ID="6" Type="Enemy">
+		<Neighbours>
+			<UpperNeighbour/>
+			<LeftNeighbour/>
+			<LowerNeighbour ID="5"/>
+			<RightNeighbour ID="7"/>
+		</Neighbours>
+		<Enemies>
+			<Enemy Type="ZombieRunB" X="656" Y="165" Width="70" Height="90"/>
+			<Enemy Type="ZombieWalkCripple" X="881" Y="466" Width="80" Height="80"/>
+		</Enemies>
+		<Objects>
+			<Object Type="skull" X="1182" Y="426" Width="25" Height="28"/>
+			<Object Type="stone2" X="1107" Y="184" Width="70" Height="60"/>
+			<Object Type="stone3" X="393" Y="492" Width="70" Height="60"/>
+			<Object Type="stone3" X="116" Y="228" Width="50" Height="40"/>
+			<Object Type="skull" X="452" Y="529" Width="25" Height="28"/>
+			<Object Type="skull" X="737" Y="582" Width="25" Height="28"/>
+			<Object Type="skull" X="711" Y="144" Width="25" Height="28"/>
+			<Object Type="skull" X="142" Y="520" Width="25" Height="28"/>
+		</Objects>
+	</Room>
+	<Room ID="7" Type="Enemy">
+		<Neighbours>
+			<UpperNeighbour/>
+			<LeftNeighbour ID="6"/>
+			<LowerNeighbour/>
+			<RightNeighbour ID="8"/>
+		</Neighbours>
+		<Enemies>
+			<Enemy Type="ZombieRunB" X="746" Y="328" Width="70" Height="90"/>
+			<Enemy Type="Cat" X="766" Y="525" Width="60" Height="60"/>
+		</Enemies>
+		<Objects>
+			<Object Type="skull" X="130" Y="517" Width="25" Height="28"/>
+			<Object Type="well" X="282" Y="194" Width="60" Height="80"/>
+			<Object Type="bigStone" X="1041" Y="168" Width="50" Height="100"/>
+			<Object Type="stone2" X="998" Y="448" Width="70" Height="60"/>
+			<Object Type="stone" X="640" Y="205" Width="60" Height="70"/>
+			<Object Type="skull" X="1050" Y="488" Width="25" Height="28"/>
+			<Object Type="skull" X="1044" Y="250" Width="25" Height="28"/>
+		</Objects>
+	</Room>
+	<Room ID="8" Type="Enemy">
+		<Neighbours>
+			<UpperNeighbour/>
+			<LeftNeighbour ID="7"/>
+			<LowerNeighbour/>
+			<RightNeighbour/>
+		</Neighbours>
+		<Enemies>
+			<Enemy Type="ZombieRunB" X="1101" Y="161" Width="70" Height="90"/>
+			<Enemy Type="Cat" X="140" Y="362" Width="60" Height="60"/>
+			<Enemy Type="ZombieRunB" X="640" Y="100" Width="70" Height="90"/>
+			<Enemy Type="ZombieWalkCripple" X="840" Y="511" Width="80" Height="80"/>
+			<Enemy Type="ZombieWalkCripple" X="1076" Y="474" Width="80" Height="80"/>
+		</Enemies>
+		<Objects>
+			<Object Type="stone2" X="393" Y="492" Width="70" Height="60"/>
+			<Object Type="stone3" X="450" Y="217" Width="50" Height="40"/>
+			<Object Type="skull" X="452" Y="529" Width="25" Height="28"/>
+			<Object Type="stone2" X="1023" Y="488" Width="70" Height="60"/>
+			<Object Type="well" X="799" Y="518" Width="60" Height="80"/>
+			<Object Type="skull" X="132" Y="198" Width="25" Height="28"/>
+			<Object Type="skull" X="1164" Y="302" Width="25" Height="28"/>
+		</Objects>
+	</Room>
+</Level3>

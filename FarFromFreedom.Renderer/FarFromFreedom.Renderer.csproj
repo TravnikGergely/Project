@@ -1,0 +1,820 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\background\items\bigSkull.png" />
+    <None Remove="Images\background\items\bigStone.png" />
+    <None Remove="Images\background\items\board.png" />
+    <None Remove="Images\background\items\bush1.png" />
+    <None Remove="Images\background\items\bush2.png" />
+    <None Remove="Images\background\items\bush3.png" />
+    <None Remove="Images\background\items\bush4.png" />
+    <None Remove="Images\background\items\bush5.png" />
+    <None Remove="Images\background\items\cactus.png" />
+    <None Remove="Images\background\items\cactus2.png" />
+    <None Remove="Images\background\items\fireplace.png" />
+    <None Remove="Images\background\items\fountain.png" />
+    <None Remove="Images\background\items\palmtree.png" />
+    <None Remove="Images\background\items\skull.png" />
+    <None Remove="Images\background\items\stone.png" />
+    <None Remove="Images\background\items\stone2.png" />
+    <None Remove="Images\background\items\stone3.png" />
+    <None Remove="Images\background\items\stone4.png" />
+    <None Remove="Images\background\items\stone5.png" />
+    <None Remove="Images\background\items\tree1.png" />
+    <None Remove="Images\background\items\tree2.png" />
+    <None Remove="Images\background\items\tree3.png" />
+    <None Remove="Images\background\items\tree4.png" />
+    <None Remove="Images\background\items\well.png" />
+    <None Remove="Images\background\Level1.jpg" />
+    <None Remove="Images\background\Level1_start.jpg" />
+    <None Remove="Images\background\Level2.jpg" />
+    <None Remove="Images\background\Level3.png" />
+    <None Remove="Images\background\MainMenu.png" />
+    <None Remove="Images\background\Start.jpg" />
+    <None Remove="Images\enemies\level1\mushroomEnemy\mushroomEnemy0.png" />
+    <None Remove="Images\enemies\level1\mushroomEnemy\mushroomEnemy1.png" />
+    <None Remove="Images\enemies\level1\mushroomEnemy\mushroomEnemy2.png" />
+    <None Remove="Images\enemies\level1\mushroomEnemy\mushroomEnemy3.png" />
+    <None Remove="Images\enemies\level1\mushroomEnemy\mushroomEnemy4.png" />
+    <None Remove="Images\enemies\level1\pugEnemy\pugEnemy0.png" />
+    <None Remove="Images\enemies\level1\pugEnemy\pugEnemy1.png" />
+    <None Remove="Images\enemies\level1\pugEnemy\pugEnemy2.png" />
+    <None Remove="Images\enemies\level1\pugEnemy\pugEnemy3.png" />
+    <None Remove="Images\enemies\level1\pugEnemy\pugEnemy4.png" />
+    <None Remove="Images\enemies\level1\pugEnemy\pugEnemy5.png" />
+    <None Remove="Images\enemies\level1\pugEnemy\pugEnemy6.png" />
+    <None Remove="Images\enemies\level1\pugEnemy\pugEnemy7.png" />
+    <None Remove="Images\enemies\level1\waspEnemy\waspEnemy0.png" />
+    <None Remove="Images\enemies\level1\waspEnemy\waspEnemy1.png" />
+    <None Remove="Images\enemies\level1\waspEnemy\waspEnemy10.png" />
+    <None Remove="Images\enemies\level1\waspEnemy\waspEnemy11.png" />
+    <None Remove="Images\enemies\level1\waspEnemy\waspEnemy12.png" />
+    <None Remove="Images\enemies\level1\waspEnemy\waspEnemy13.png" />
+    <None Remove="Images\enemies\level1\waspEnemy\waspEnemy14.png" />
+    <None Remove="Images\enemies\level1\waspEnemy\waspEnemy15.png" />
+    <None Remove="Images\enemies\level1\waspEnemy\waspEnemy2.png" />
+    <None Remove="Images\enemies\level1\waspEnemy\waspEnemy3.png" />
+    <None Remove="Images\enemies\level1\waspEnemy\waspEnemy4.png" />
+    <None Remove="Images\enemies\level1\waspEnemy\waspEnemy5.png" />
+    <None Remove="Images\enemies\level1\waspEnemy\waspEnemy6.png" />
+    <None Remove="Images\enemies\level1\waspEnemy\waspEnemy7.png" />
+    <None Remove="Images\enemies\level1\waspEnemy\waspEnemy8.png" />
+    <None Remove="Images\enemies\level1\waspEnemy\waspEnemy9.png" />
+    <None Remove="Images\enemies\level2\batEnemy\batEnemy0.png" />
+    <None Remove="Images\enemies\level2\batEnemy\batEnemy1.png" />
+    <None Remove="Images\enemies\level2\batEnemy\batEnemy2.png" />
+    <None Remove="Images\enemies\level2\batEnemy\batEnemy3.png" />
+    <None Remove="Images\enemies\level2\batEnemy\batEnemy4.png" />
+    <None Remove="Images\enemies\level2\batEnemy\batEnemy5.png" />
+    <None Remove="Images\enemies\level2\batEnemy\batEnemy6.png" />
+    <None Remove="Images\enemies\level2\batEnemy\batEnemy7.png" />
+    <None Remove="Images\enemies\level2\flyingEnemy\flyingEnemy0.png" />
+    <None Remove="Images\enemies\level2\flyingEnemy\flyingEnemy1.png" />
+    <None Remove="Images\enemies\level2\flyingEnemy\flyingEnemy2.png" />
+    <None Remove="Images\enemies\level2\flyingEnemy\flyingEnemy3.png" />
+    <None Remove="Images\enemies\level2\flyingEnemy\flyingEnemy4.png" />
+    <None Remove="Images\enemies\level2\monsterEnemy\monsterEnemy0.png" />
+    <None Remove="Images\enemies\level2\monsterEnemy\monsterEnemy1.png" />
+    <None Remove="Images\enemies\level2\monsterEnemy\monsterEnemy2.png" />
+    <None Remove="Images\enemies\level2\monsterEnemy\monsterEnemy3.png" />
+    <None Remove="Images\enemies\level2\monsterEnemy\monsterEnemy4.png" />
+    <None Remove="Images\enemies\level2\monsterEnemy\monsterEnemy5.png" />
+    <None Remove="Images\enemies\level2\monsterEnemy\monsterEnemy6.png" />
+    <None Remove="Images\enemies\level3\catEnemy\catEnemy0.png" />
+    <None Remove="Images\enemies\level3\catEnemy\catEnemy1.png" />
+    <None Remove="Images\enemies\level3\catEnemy\catEnemy10.png" />
+    <None Remove="Images\enemies\level3\catEnemy\catEnemy11.png" />
+    <None Remove="Images\enemies\level3\catEnemy\catEnemy12.png" />
+    <None Remove="Images\enemies\level3\catEnemy\catEnemy13.png" />
+    <None Remove="Images\enemies\level3\catEnemy\catEnemy14.png" />
+    <None Remove="Images\enemies\level3\catEnemy\catEnemy2.png" />
+    <None Remove="Images\enemies\level3\catEnemy\catEnemy3.png" />
+    <None Remove="Images\enemies\level3\catEnemy\catEnemy4.png" />
+    <None Remove="Images\enemies\level3\catEnemy\catEnemy5.png" />
+    <None Remove="Images\enemies\level3\catEnemy\catEnemy6.png" />
+    <None Remove="Images\enemies\level3\catEnemy\catEnemy7.png" />
+    <None Remove="Images\enemies\level3\catEnemy\catEnemy8.png" />
+    <None Remove="Images\enemies\level3\catEnemy\catEnemy9.png" />
+    <None Remove="Images\enemies\level3\zombieRunBEnemy\zombieRunBEnemy0.png" />
+    <None Remove="Images\enemies\level3\zombieRunBEnemy\zombieRunBEnemy1.png" />
+    <None Remove="Images\enemies\level3\zombieRunBEnemy\zombieRunBEnemy10.png" />
+    <None Remove="Images\enemies\level3\zombieRunBEnemy\zombieRunBEnemy11.png" />
+    <None Remove="Images\enemies\level3\zombieRunBEnemy\zombieRunBEnemy12.png" />
+    <None Remove="Images\enemies\level3\zombieRunBEnemy\zombieRunBEnemy13.png" />
+    <None Remove="Images\enemies\level3\zombieRunBEnemy\zombieRunBEnemy14.png" />
+    <None Remove="Images\enemies\level3\zombieRunBEnemy\zombieRunBEnemy15.png" />
+    <None Remove="Images\enemies\level3\zombieRunBEnemy\zombieRunBEnemy16.png" />
+    <None Remove="Images\enemies\level3\zombieRunBEnemy\zombieRunBEnemy17.png" />
+    <None Remove="Images\enemies\level3\zombieRunBEnemy\zombieRunBEnemy18.png" />
+    <None Remove="Images\enemies\level3\zombieRunBEnemy\zombieRunBEnemy19.png" />
+    <None Remove="Images\enemies\level3\zombieRunBEnemy\zombieRunBEnemy2.png" />
+    <None Remove="Images\enemies\level3\zombieRunBEnemy\zombieRunBEnemy3.png" />
+    <None Remove="Images\enemies\level3\zombieRunBEnemy\zombieRunBEnemy4.png" />
+    <None Remove="Images\enemies\level3\zombieRunBEnemy\zombieRunBEnemy5.png" />
+    <None Remove="Images\enemies\level3\zombieRunBEnemy\zombieRunBEnemy6.png" />
+    <None Remove="Images\enemies\level3\zombieRunBEnemy\zombieRunBEnemy7.png" />
+    <None Remove="Images\enemies\level3\zombieRunBEnemy\zombieRunBEnemy8.png" />
+    <None Remove="Images\enemies\level3\zombieRunBEnemy\zombieRunBEnemy9.png" />
+    <None Remove="Images\enemies\level3\zombieWalkCrippleEnemy\zombieWalkCrippleEnemy0.png" />
+    <None Remove="Images\enemies\level3\zombieWalkCrippleEnemy\zombieWalkCrippleEnemy1.png" />
+    <None Remove="Images\enemies\level3\zombieWalkCrippleEnemy\zombieWalkCrippleEnemy10.png" />
+    <None Remove="Images\enemies\level3\zombieWalkCrippleEnemy\zombieWalkCrippleEnemy11.png" />
+    <None Remove="Images\enemies\level3\zombieWalkCrippleEnemy\zombieWalkCrippleEnemy12.png" />
+    <None Remove="Images\enemies\level3\zombieWalkCrippleEnemy\zombieWalkCrippleEnemy13.png" />
+    <None Remove="Images\enemies\level3\zombieWalkCrippleEnemy\zombieWalkCrippleEnemy14.png" />
+    <None Remove="Images\enemies\level3\zombieWalkCrippleEnemy\zombieWalkCrippleEnemy15.png" />
+    <None Remove="Images\enemies\level3\zombieWalkCrippleEnemy\zombieWalkCrippleEnemy16.png" />
+    <None Remove="Images\enemies\level3\zombieWalkCrippleEnemy\zombieWalkCrippleEnemy17.png" />
+    <None Remove="Images\enemies\level3\zombieWalkCrippleEnemy\zombieWalkCrippleEnemy18.png" />
+    <None Remove="Images\enemies\level3\zombieWalkCrippleEnemy\zombieWalkCrippleEnemy19.png" />
+    <None Remove="Images\enemies\level3\zombieWalkCrippleEnemy\zombieWalkCrippleEnemy2.png" />
+    <None Remove="Images\enemies\level3\zombieWalkCrippleEnemy\zombieWalkCrippleEnemy20.png" />
+    <None Remove="Images\enemies\level3\zombieWalkCrippleEnemy\zombieWalkCrippleEnemy21.png" />
+    <None Remove="Images\enemies\level3\zombieWalkCrippleEnemy\zombieWalkCrippleEnemy22.png" />
+    <None Remove="Images\enemies\level3\zombieWalkCrippleEnemy\zombieWalkCrippleEnemy23.png" />
+    <None Remove="Images\enemies\level3\zombieWalkCrippleEnemy\zombieWalkCrippleEnemy24.png" />
+    <None Remove="Images\enemies\level3\zombieWalkCrippleEnemy\zombieWalkCrippleEnemy25.png" />
+    <None Remove="Images\enemies\level3\zombieWalkCrippleEnemy\zombieWalkCrippleEnemy26.png" />
+    <None Remove="Images\enemies\level3\zombieWalkCrippleEnemy\zombieWalkCrippleEnemy27.png" />
+    <None Remove="Images\enemies\level3\zombieWalkCrippleEnemy\zombieWalkCrippleEnemy28.png" />
+    <None Remove="Images\enemies\level3\zombieWalkCrippleEnemy\zombieWalkCrippleEnemy29.png" />
+    <None Remove="Images\enemies\level3\zombieWalkCrippleEnemy\zombieWalkCrippleEnemy3.png" />
+    <None Remove="Images\enemies\level3\zombieWalkCrippleEnemy\zombieWalkCrippleEnemy4.png" />
+    <None Remove="Images\enemies\level3\zombieWalkCrippleEnemy\zombieWalkCrippleEnemy5.png" />
+    <None Remove="Images\enemies\level3\zombieWalkCrippleEnemy\zombieWalkCrippleEnemy6.png" />
+    <None Remove="Images\enemies\level3\zombieWalkCrippleEnemy\zombieWalkCrippleEnemy7.png" />
+    <None Remove="Images\enemies\level3\zombieWalkCrippleEnemy\zombieWalkCrippleEnemy8.png" />
+    <None Remove="Images\enemies\level3\zombieWalkCrippleEnemy\zombieWalkCrippleEnemy9.png" />
+    <None Remove="Images\Gobby\gobbyBack1.png" />
+    <None Remove="Images\Gobby\gobbyBack2.png" />
+    <None Remove="Images\Gobby\gobbyBack3.png" />
+    <None Remove="Images\Gobby\gobbyBack4.png" />
+    <None Remove="Images\Gobby\gobbyFront1.png" />
+    <None Remove="Images\Gobby\gobbyFront2.png" />
+    <None Remove="Images\Gobby\gobbyFront3.png" />
+    <None Remove="Images\Gobby\gobbyFront4.png" />
+    <None Remove="Images\Gobby\gobbyLeft1.png" />
+    <None Remove="Images\Gobby\gobbyLeft2.png" />
+    <None Remove="Images\Gobby\gobbyLeft3.png" />
+    <None Remove="Images\Gobby\gobbyLeft4.png" />
+    <None Remove="Images\Gobby\gobbyRight1.png" />
+    <None Remove="Images\Gobby\gobbyRight2.png" />
+    <None Remove="Images\Gobby\gobbyRight3.png" />
+    <None Remove="Images\Gobby\gobbyRight4.png" />
+    <None Remove="Images\items\bag.png" />
+    <None Remove="Images\items\bomb.png" />
+    <None Remove="Images\items\bottle.png" />
+    <None Remove="Images\items\coin.png" />
+    <None Remove="Images\items\heart.png" />
+    <None Remove="Images\items\heart2.png" />
+    <None Remove="Images\items\money.png" />
+    <None Remove="Images\items\shield.png" />
+    <None Remove="Images\items\star.png" />
+    <None Remove="Images\items\tears.png" />
+    <None Remove="Images\items\time.png" />
+    <None Remove="Images\levels\finalMenu.png" />
+    <None Remove="Images\MainMenu\DiedExit.png" />
+    <None Remove="Images\MainMenu\DiedRestart.png" />
+    <None Remove="Images\MainMenu\exit game.png" />
+    <None Remove="Images\MainMenu\ExitGame.png" />
+    <None Remove="Images\MainMenu\Resume.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Images\background\items\bigSkull.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\background\items\bigStone.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\background\items\board.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\background\items\bush1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\background\items\bush2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\background\items\bush3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\background\items\bush4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\background\items\bush5.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\background\items\cactus.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\background\items\cactus2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\background\items\fireplace.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\background\items\fountain.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\background\items\palmtree.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\background\items\skull.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\background\items\stone.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\background\items\stone2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\background\items\stone3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\background\items\stone4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\background\items\stone5.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\background\items\tree1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\background\items\tree2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\background\items\tree3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\background\items\tree4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\background\items\well.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\background\Level1.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\background\Level1_start.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\background\Level2.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\background\Level3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Gobby\gobbyBack1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Gobby\gobbyBack2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Gobby\gobbyBack3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Gobby\gobbyBack4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Gobby\gobbyFront1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Gobby\gobbyFront2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Gobby\gobbyFront3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Gobby\gobbyFront4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Gobby\gobbyLeft1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Gobby\gobbyLeft2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Gobby\gobbyLeft3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Gobby\gobbyLeft4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Gobby\gobbyRight1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Gobby\gobbyRight2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Gobby\gobbyRight3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Gobby\gobbyRight4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level1\mushroomEnemy\mushroomEnemy0.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level1\mushroomEnemy\mushroomEnemy1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level1\mushroomEnemy\mushroomEnemy2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level1\mushroomEnemy\mushroomEnemy3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level1\mushroomEnemy\mushroomEnemy4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level1\pugEnemy\pugEnemy0.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level1\pugEnemy\pugEnemy1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level1\pugEnemy\pugEnemy2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level1\pugEnemy\pugEnemy3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level1\pugEnemy\pugEnemy4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level1\pugEnemy\pugEnemy5.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level1\pugEnemy\pugEnemy6.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level1\pugEnemy\pugEnemy7.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level1\waspEnemy\waspEnemy0.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level1\waspEnemy\waspEnemy1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level1\waspEnemy\waspEnemy10.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level1\waspEnemy\waspEnemy11.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level1\waspEnemy\waspEnemy12.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level1\waspEnemy\waspEnemy13.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level1\waspEnemy\waspEnemy14.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level1\waspEnemy\waspEnemy2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level1\waspEnemy\waspEnemy3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level1\waspEnemy\waspEnemy4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level1\waspEnemy\waspEnemy5.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level1\waspEnemy\waspEnemy6.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level1\waspEnemy\waspEnemy7.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level1\waspEnemy\waspEnemy8.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level1\waspEnemy\waspEnemy9.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level2\batEnemy\batEnemy0.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level2\batEnemy\batEnemy1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level2\batEnemy\batEnemy2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level2\batEnemy\batEnemy3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level2\batEnemy\batEnemy4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level2\batEnemy\batEnemy5.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level2\batEnemy\batEnemy6.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level2\batEnemy\batEnemy7.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level2\flyingEnemy\flyingEnemy0.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level2\flyingEnemy\flyingEnemy1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level2\flyingEnemy\flyingEnemy2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level2\flyingEnemy\flyingEnemy3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level2\flyingEnemy\flyingEnemy4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level2\monsterEnemy\monsterEnemy0.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level2\monsterEnemy\monsterEnemy1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level2\monsterEnemy\monsterEnemy2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level2\monsterEnemy\monsterEnemy3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level2\monsterEnemy\monsterEnemy4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level2\monsterEnemy\monsterEnemy5.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level2\monsterEnemy\monsterEnemy6.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\catEnemy\catEnemy0.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\catEnemy\catEnemy1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\catEnemy\catEnemy10.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\catEnemy\catEnemy11.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\catEnemy\catEnemy12.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\catEnemy\catEnemy13.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\catEnemy\catEnemy14.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\catEnemy\catEnemy2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\catEnemy\catEnemy3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\catEnemy\catEnemy4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\catEnemy\catEnemy5.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\catEnemy\catEnemy6.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\catEnemy\catEnemy7.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\catEnemy\catEnemy8.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\catEnemy\catEnemy9.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\zombieRunBEnemy\zombieRunBEnemy0.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\zombieRunBEnemy\zombieRunBEnemy1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\zombieRunBEnemy\zombieRunBEnemy10.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\zombieRunBEnemy\zombieRunBEnemy11.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\zombieRunBEnemy\zombieRunBEnemy12.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\zombieRunBEnemy\zombieRunBEnemy13.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\zombieRunBEnemy\zombieRunBEnemy14.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\zombieRunBEnemy\zombieRunBEnemy15.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\zombieRunBEnemy\zombieRunBEnemy16.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\zombieRunBEnemy\zombieRunBEnemy17.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\zombieRunBEnemy\zombieRunBEnemy18.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\zombieRunBEnemy\zombieRunBEnemy19.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\zombieRunBEnemy\zombieRunBEnemy2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\zombieRunBEnemy\zombieRunBEnemy3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\zombieRunBEnemy\zombieRunBEnemy4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\zombieRunBEnemy\zombieRunBEnemy5.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\zombieRunBEnemy\zombieRunBEnemy6.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\zombieRunBEnemy\zombieRunBEnemy7.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\zombieRunBEnemy\zombieRunBEnemy8.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\zombieRunBEnemy\zombieRunBEnemy9.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\zombieWalkCrippleEnemy\zombieWalkCrippleEnemy0.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\zombieWalkCrippleEnemy\zombieWalkCrippleEnemy1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\zombieWalkCrippleEnemy\zombieWalkCrippleEnemy10.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\zombieWalkCrippleEnemy\zombieWalkCrippleEnemy11.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\zombieWalkCrippleEnemy\zombieWalkCrippleEnemy12.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\zombieWalkCrippleEnemy\zombieWalkCrippleEnemy13.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\zombieWalkCrippleEnemy\zombieWalkCrippleEnemy14.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\zombieWalkCrippleEnemy\zombieWalkCrippleEnemy15.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\zombieWalkCrippleEnemy\zombieWalkCrippleEnemy16.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\zombieWalkCrippleEnemy\zombieWalkCrippleEnemy17.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\zombieWalkCrippleEnemy\zombieWalkCrippleEnemy18.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\zombieWalkCrippleEnemy\zombieWalkCrippleEnemy19.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\zombieWalkCrippleEnemy\zombieWalkCrippleEnemy2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\zombieWalkCrippleEnemy\zombieWalkCrippleEnemy20.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\zombieWalkCrippleEnemy\zombieWalkCrippleEnemy21.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\zombieWalkCrippleEnemy\zombieWalkCrippleEnemy22.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\zombieWalkCrippleEnemy\zombieWalkCrippleEnemy23.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\zombieWalkCrippleEnemy\zombieWalkCrippleEnemy24.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\zombieWalkCrippleEnemy\zombieWalkCrippleEnemy25.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\zombieWalkCrippleEnemy\zombieWalkCrippleEnemy26.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\zombieWalkCrippleEnemy\zombieWalkCrippleEnemy27.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\zombieWalkCrippleEnemy\zombieWalkCrippleEnemy28.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\zombieWalkCrippleEnemy\zombieWalkCrippleEnemy29.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\zombieWalkCrippleEnemy\zombieWalkCrippleEnemy3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\zombieWalkCrippleEnemy\zombieWalkCrippleEnemy4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\zombieWalkCrippleEnemy\zombieWalkCrippleEnemy5.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\zombieWalkCrippleEnemy\zombieWalkCrippleEnemy6.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\zombieWalkCrippleEnemy\zombieWalkCrippleEnemy7.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\zombieWalkCrippleEnemy\zombieWalkCrippleEnemy8.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemies\level3\zombieWalkCrippleEnemy\zombieWalkCrippleEnemy9.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\items\bag.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\items\bomb.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\items\bottle.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\items\coin.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\items\heart.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\items\money.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\items\shield.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\items\star.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\items\tears.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\items\time.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\levels\finalMenu.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\MainMenu\DiedExit.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\MainMenu\DiedRestart.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\MainMenu\exit game.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\MainMenu\ExitGame.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\MainMenu\Resume.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FarFromFreedom.Model\FarFromFreedom.Model.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Images\Bullet\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Images\items\bullet.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\items\emptyheart.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\levels\DiedPicture.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\levels\Level1\Level1door1_small.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\levels\Level1\Level1door1_small.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\levels\Level1\Level1door2_small.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\levels\Level1\Level1door3_small.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\levels\Level1\level1door4_small.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\levels\Level1\Level1door5_small.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\levels\Level1\Level1_base.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\levels\Level1\Level1_start.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\levels\Level2\Level2.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\levels\Level2\Level2door5_small.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\levels\Level2\Level2doors1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\levels\Level2\Level2doors2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\levels\Level2\Level2doors3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\levels\Level2\Level2doors4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\levels\Level3\Level3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\levels\Level3\Level3door5_small.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\levels\Level3\Level3doors1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\levels\Level3\Level3doors2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\levels\Level3\Level3doors3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\levels\Level3\Level3doors4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\levels\PausedMenu.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\MainMenu\continue.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\MainMenu\highscore.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\MainMenu\Highscorelist.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\MainMenu\MainMenu.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\MainMenu\new game.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\MainMenu\options.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\MainMenu\savehighscore.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\MainMenu\Start.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\MainMenu\Stats.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

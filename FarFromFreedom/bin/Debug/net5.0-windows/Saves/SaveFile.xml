@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SaveFile>
+  <Position>
+    <Level>1</Level>
+    <RoomID>8</RoomID>
+  </Position>
+  <Cleared_Rooms>
+    <Room>1</Room>
+    <Room>2</Room>
+    <Room>3</Room>
+    <Room>4</Room>
+    <Room>5</Room>
+    <Room>6</Room>
+    <Room>7</Room>
+    <Room>8</Room>
+  </Cleared_Rooms>
+  <MainCharacter>
+    <Name>gobby</Name>
+    <Description>alma</Description>
+    <Health>6</Health>
+    <CurrentHealth>2</CurrentHealth>
+    <Speed_X>6</Speed_X>
+    <Speed_Y>6</Speed_Y>
+    <Coin>0</Coin>
+    <Highscore>80</Highscore>
+    <Power>4</Power>
+    <Area>
+      <X>604</X>
+      <Y>300</Y>
+      <Width>70</Width>
+      <Height>100</Height>
+    </Area>
+  </MainCharacter>
+</SaveFile>

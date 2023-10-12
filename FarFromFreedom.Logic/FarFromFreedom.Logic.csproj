@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FarFromFreedom.Model\FarFromFreedom.Model.csproj" />
+    <ProjectReference Include="..\FarFromFreedom.Renderer\FarFromFreedom.Renderer.csproj" />
+    <ProjectReference Include="..\FarFromFreedom.Repository\FarFromFreedom.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

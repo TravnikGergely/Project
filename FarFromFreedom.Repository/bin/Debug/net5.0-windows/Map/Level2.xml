@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Level2>
+	<Room ID="2" Type="Item">
+		<Neighbours>
+			<UpperNeighbour/>
+			<LeftNeighbour/>
+			<LowerNeighbour/>
+			<RightNeighbour ID="1"/>
+		</Neighbours>
+		<Enemies>
+		</Enemies>
+		<Objects>
+			<Object Type="cactus" X="539" Y="536" Width="60" Height="65"/>
+			<Object Type="cactus2" X="1112" Y="528" Width="50" Height="60"/>
+			<Object Type="cactus2" X="323" Y="130" Width="50" Height="60"/>
+			<Object Type="bigSkull" X="801" Y="91" Width="85" Height="110"/>
+			<Object Type="skull" X="132" Y="141" Width="25" Height="28"/>
+			<Object Type="skull" X="254" Y="500" Width="25" Height="28"/>
+			<Object Type="stone4" X="998" Y="448" Width="70" Height="60"/>
+			<Object Type="cactus" X="253" Y="451" Width="55" Height="60"/>
+			<Object Type="tree3" X="1103" Y="99" Width="70" Height="95"/>
+			<Object Type="tree4" X="160" Y="148" Width="75" Height="95"/>
+			<Object Type="skull" X="1050" Y="488" Width="25" Height="28"/>
+		</Objects>
+	</Room>
+	<Room ID="1" Type="Enemy">
+		<Neighbours>
+			<UpperNeighbour ID="3"/>
+			<LeftNeighbour ID="2"/>
+			<LowerNeighbour/>
+			<RightNeighbour/>
+		</Neighbours>
+		<Enemies>
+			<Enemy Type="Monster" X="877" Y="287" Width="86" Height="83"/>
+		</Enemies>
+		<Objects>
+			<Object Type="tree3" X="957" Y="122" Width="70" Height="95"/>
+			<Object Type="cactus" X="1001" Y="770" Width="55" Height="60"/>
+			<Object Type="cactus2" X="989" Y="200" Width="50" Height="60"/>
+			<Object Type="cactus" X="192" Y="525" Width="55" Height="60"/>
+			<Object Type="palmtree" X="992" Y="524" Width="70" Height="90"/>
+			<Object Type="board" X="553" Y="96" Width="50" Height="50"/>
+			<Object Type="tree4" X="137" Y="104" Width="75" Height="95"/>
+			<Object Type="tree4" X="423" Y="94" Width="75" Height="95"/>
+			<Object Type="stone4" X="381" Y="426" Width="70" Height="60"/>
+			<Object Type="skull" X="1109" Y="489" Width="25" Height="28"/>
+			<Object Type="skull" X="551" Y="568" Width="20" Height="25"/>
+			<Object Type="stone5" X="795" Y="447" Width="60" Height="60"/>
+		</Objects>
+	</Room>
+	<Room ID="3" Type="Neutral">
+		<Neighbours>
+			<UpperNeighbour ID="5"/>
+			<LeftNeighbour/>
+			<LowerNeighbour ID="1"/>
+			<RightNeighbour ID="4"/>
+		</Neighbours>
+		<Enemies>
+		</Enemies>
+		<Objects>
+			<Object Type="cactus" X="352" Y="549" Width="55" Height="60"/>
+			<Object Type="cactus" X="1004" Y="204" Width="55" Height="60"/>
+			<Object Type="palmtree" X="1041" Y="168" Width="70" Height="90"/>
+			<Object Type="stone5" X="998" Y="448" Width="60" Height="60"/>
+			<Object Type="bush4" X="253" Y="451" Width="55" Height="60"/>
+			<Object Type="tree3" X="398" Y="100" Width="70" Height="95"/>
+			<Object Type="tree4" X="160" Y="148" Width="75" Height="95"/>
+			<Object Type="skull" X="1050" Y="488" Width="25" Height="28"/>
+			<Object Type="bigSkull" X="876" Y="80" Width="85" Height="110"/>
+		</Objects>
+	</Room>
+	<Room ID="4" Type="Enemy">
+		<Neighbours>
+			<UpperNeighbour ID="6"/>
+			<LeftNeighbour ID="3"/>
+			<LowerNeighbour/>
+			<RightNeighbour/>
+		</Neighbours>
+		<Enemies>
+			<Enemy Type="Bat" X="818" Y="184" Width="55" Height="50"/>
+			<Enemy Type="Flying" X="695" Y="512" Width="60" Height="60"/>
+			<Enemy Type="Monster" X="877" Y="287" Width="86" Height="83"/>
+		</Enemies>
+		<Objects>
+			<Object Type="tree4" X="957" Y="122" Width="70" Height="95"/>
+			<Object Type="cactus" X="1001" Y="770" Width="55" Height="60"/>
+			<Object Type="cactus2" X="989" Y="200" Width="50" Height="60"/>
+			<Object Type="cactus2" X="192" Y="525" Width="50" Height="60"/>
+			<Object Type="cactus" X="992" Y="524" Width="55" Height="60"/>
+			<Object Type="board" X="553" Y="96" Width="50" Height="50"/>
+			<Object Type="tree3" X="137" Y="104" Width="70" Height="95"/>
+			<Object Type="tree4" X="423" Y="94" Width="75" Height="95"/>
+			<Object Type="fireplace" X="381" Y="426" Width="60" Height="95"/>
+			<Object Type="skull" X="1109" Y="489" Width="25" Height="28"/>
+			<Object Type="skull" X="551" Y="568" Width="20" Height="25"/>
+			<Object Type="stone4" X="795" Y="447" Width="70" Height="60"/>
+		</Objects>
+	</Room>
+	<Room ID="5" Type="Enemy">
+		<Neighbours>
+			<UpperNeighbour/>
+			<LeftNeighbour/>
+			<LowerNeighbour ID="3"/>
+			<RightNeighbour ID="6"/>
+		</Neighbours>
+		<Enemies>
+			<Enemy Type="Bat" X="508" Y="173" Width="55" Height="50"/>
+			<Enemy Type="Monster" X="226" Y="447" Width="86" Height="83"/>
+		</Enemies>
+		<Objects>
+			<Object Type="tree3" X="1036" Y="510" Width="70" Height="95"/>
+			<Object Type="tree3" X="1114" Y="493" Width="70" Height="95"/>
+			<Object Type="tree4" X="164" Y="498" Width="70" Height="95"/>
+			<Object Type="cactus" X="849" Y="524" Width="55" Height="60"/>
+			<Object Type="bigSkull" X="327" Y="122" Width="85" Height="110"/>
+			<Object Type="stone5" X="896" Y="247" Width="60" Height="60"/>
+			<Object Type="stone4" X="139" Y="240" Width="70" Height="60"/>
+			<Object Type="stone5" X="1039" Y="180" Width="60" Height="60"/>
+			<Object Type="skull" X="1094" Y="560" Width="25" Height="28"/>	
+		</Objects>
+	</Room>
+	<Room ID="6" Type="Enemy">
+		<Neighbours>
+			<UpperNeighbour ID="7"/>
+			<LeftNeighbour ID="5"/>
+			<LowerNeighbour ID="4"/>
+			<RightNeighbour/>
+		</Neighbours>
+		<Enemies>
+			<Enemy Type="Flying" X="976" Y="185" Width="60" Height="60"/>
+			<Enemy Type="Monster" X="369" Y="543" Width="86" Height="83"/>
+			<Enemy Type="Monster" X="884" Y="527" Width="86" Height="83"/>
+			<Enemy Type="Bat" X="1076" Y="303" Width="55" Height="50"/>
+		</Enemies>
+		<Objects>
+			<Object Type="cactus" X="539" Y="536" Width="60" Height="65"/>
+			<Object Type="cactus2" X="1112" Y="528" Width="50" Height="60"/>
+			<Object Type="cactus2" X="323" Y="130" Width="50" Height="60"/>
+			<Object Type="bigSkull" X="801" Y="91" Width="85" Height="110"/>
+			<Object Type="skull" X="132" Y="141" Width="25" Height="28"/>
+			<Object Type="skull" X="254" Y="500" Width="25" Height="28"/>
+			<Object Type="stone4" X="998" Y="448" Width="70" Height="60"/>
+			<Object Type="cactus" X="253" Y="451" Width="55" Height="60"/>
+			<Object Type="tree3" X="1103" Y="99" Width="70" Height="95"/>
+			<Object Type="tree4" X="160" Y="148" Width="75" Height="95"/>
+			<Object Type="skull" X="1050" Y="488" Width="25" Height="28"/>
+		</Objects>
+	</Room>
+	<Room ID="7" Type="Enemy">
+		<Neighbours>
+			<UpperNeighbour/>
+			<LeftNeighbour/>
+			<LowerNeighbour ID="6"/>
+			<RightNeighbour ID="8"/>
+		</Neighbours>
+		<Enemies>
+			<Enemy Type="Flying" X="297" Y="235" Width="60" Height="60"/>
+			<Enemy Type="Bat" X="913" Y="172" Width="55" Height="50"/>
+		</Enemies>
+		<Objects>
+			<Object Type="cactus" X="352" Y="549" Width="55" Height="60"/>
+			<Object Type="cactus" X="1004" Y="204" Width="55" Height="60"/>
+			<Object Type="palmtree" X="1041" Y="168" Width="70" Height="90"/>
+			<Object Type="stone5" X="998" Y="448" Width="60" Height="60"/>
+			<Object Type="bush4" X="253" Y="451" Width="55" Height="60"/>
+			<Object Type="tree3" X="398" Y="100" Width="70" Height="95"/>
+			<Object Type="tree4" X="160" Y="148" Width="75" Height="95"/>
+			<Object Type="skull" X="1050" Y="488" Width="25" Height="28"/>
+			<Object Type="bigSkull" X="876" Y="80" Width="85" Height="110"/>
+		</Objects>
+	</Room>
+	<Room ID="8" Type="Enemy">
+		<Neighbours>
+			<UpperNeighbour/>
+			<LeftNeighbour ID="7"/>
+			<LowerNeighbour/>
+			<RightNeighbour/>
+		</Neighbours>
+		<Enemies>
+			<Enemy Type="Flying" X="1049" Y="335" Width="60" Height="60"/>
+			<Enemy Type="Bat" X="690" Y="498" Width="55" Height="50"/>
+			<Enemy Type="Monster" X="288" Y="168" Width="86" Height="83"/>
+			<Enemy Type="Monster" X="938" Y="469" Width="86" Height="83"/>
+		</Enemies>
+		<Objects>
+			<Object Type="tree3" X="957" Y="122" Width="70" Height="95"/>
+			<Object Type="cactus" X="1001" Y="770" Width="55" Height="60"/>
+			<Object Type="cactus2" X="989" Y="200" Width="50" Height="60"/>
+			<Object Type="cactus" X="192" Y="525" Width="55" Height="60"/>
+			<Object Type="palmtree" X="1069" Y="511" Width="70" Height="90"/>
+			<Object Type="tree4" X="137" Y="104" Width="75" Height="95"/>
+			<Object Type="tree4" X="423" Y="94" Width="75" Height="95"/>
+			<Object Type="stone4" X="381" Y="426" Width="70" Height="60"/>
+			<Object Type="skull" X="1109" Y="489" Width="25" Height="28"/>
+			<Object Type="skull" X="551" Y="568" Width="20" Height="25"/>
+			<Object Type="stone5" X="795" Y="447" Width="60" Height="60"/>
+		</Objects>
+	</Room>
+</Level2>

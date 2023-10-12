@@ -1,0 +1,12 @@
+C:\Users\Rebeka\Documents\GUI_20212202_HU3BPF\GUI_20212202_HU3BPF_AMKWH0_B74N6O\FarFromFreedom.Model\bin\Debug\net5.0-windows\FarFromFreedom.Model.deps.json
+C:\Users\Rebeka\Documents\GUI_20212202_HU3BPF\GUI_20212202_HU3BPF_AMKWH0_B74N6O\FarFromFreedom.Model\bin\Debug\net5.0-windows\FarFromFreedom.Model.dll
+C:\Users\Rebeka\Documents\GUI_20212202_HU3BPF\GUI_20212202_HU3BPF_AMKWH0_B74N6O\FarFromFreedom.Model\bin\Debug\net5.0-windows\FarFromFreedom.Model.pdb
+C:\Users\Rebeka\Documents\GUI_20212202_HU3BPF\GUI_20212202_HU3BPF_AMKWH0_B74N6O\FarFromFreedom.Model\obj\Debug\net5.0-windows\FarFromFreedom.Model.csproj.AssemblyReference.cache
+C:\Users\Rebeka\Documents\GUI_20212202_HU3BPF\GUI_20212202_HU3BPF_AMKWH0_B74N6O\FarFromFreedom.Model\obj\Debug\net5.0-windows\FarFromFreedom.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rebeka\Documents\GUI_20212202_HU3BPF\GUI_20212202_HU3BPF_AMKWH0_B74N6O\FarFromFreedom.Model\obj\Debug\net5.0-windows\FarFromFreedom.Model.AssemblyInfoInputs.cache
+C:\Users\Rebeka\Documents\GUI_20212202_HU3BPF\GUI_20212202_HU3BPF_AMKWH0_B74N6O\FarFromFreedom.Model\obj\Debug\net5.0-windows\FarFromFreedom.Model.AssemblyInfo.cs
+C:\Users\Rebeka\Documents\GUI_20212202_HU3BPF\GUI_20212202_HU3BPF_AMKWH0_B74N6O\FarFromFreedom.Model\obj\Debug\net5.0-windows\FarFromFreedom.Model.csproj.CoreCompileInputs.cache
+C:\Users\Rebeka\Documents\GUI_20212202_HU3BPF\GUI_20212202_HU3BPF_AMKWH0_B74N6O\FarFromFreedom.Model\obj\Debug\net5.0-windows\FarFromFreedom.Model.dll
+C:\Users\Rebeka\Documents\GUI_20212202_HU3BPF\GUI_20212202_HU3BPF_AMKWH0_B74N6O\FarFromFreedom.Model\obj\Debug\net5.0-windows\refint\FarFromFreedom.Model.dll
+C:\Users\Rebeka\Documents\GUI_20212202_HU3BPF\GUI_20212202_HU3BPF_AMKWH0_B74N6O\FarFromFreedom.Model\obj\Debug\net5.0-windows\FarFromFreedom.Model.pdb
+C:\Users\Rebeka\Documents\GUI_20212202_HU3BPF\GUI_20212202_HU3BPF_AMKWH0_B74N6O\FarFromFreedom.Model\obj\Debug\net5.0-windows\ref\FarFromFreedom.Model.dll
